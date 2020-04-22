@@ -1,0 +1,30 @@
+/* */
+*{
+    box-sizing:border-box;
+ }
+p{
+margin: 2px;
+border: 2px solid black;
+}
+#subjects{
+font-family: Arial, Helvetica, sans-serif;
+font-size: medium;
+}
+@media (min-width:1200px){
+.lap{
+width: 33%;
+margin: 2px;
+border: 2px solid black;
+float: left;
+box-sizing:border-box;
+}
+}
+@media (min-width:950px) and (max-width:1199px){
+.tab{
+width:48%;
+margin: 2px;
+border: 2px solid black;
+float: left;
+box-sizing:border-box;
+}
+}
