@@ -2,29 +2,49 @@
 *{
     box-sizing:border-box;
  }
-p{
-margin: 2px;
-border: 2px solid black;
-}
+ h2{
+    text-align:center;
+ }
+ #heading{
+     background-color: teal;
+    text-align:right; margin: 2px;border: 2px solid black;
+    box-sizing :border-box;
+ }
+ p{
+    margin: 2px;border: 2px solid black;
+    box-sizing :border-box;
+ }
+
 #subjects{
 font-family: Arial, Helvetica, sans-serif;
 font-size: medium;
 }
+#mat{
+    background-color: brown;
+}
+#phy{
+    background-color: aqua;
+}
+#chem{
+    background-color: violet;
+}
+body{
+    background-color:darkgrey;
+    margin: 2px;
+    border: 2px solid tomato;;
+}
 @media (min-width:1200px){
 .lap{
-width: 33%;
-margin: 2px;
-border: 2px solid black;
+width : 33%;
 float: left;
-box-sizing:border-box;
+margin: 2px;border: 2px solid black
 }
 }
 @media (min-width:950px) and (max-width:1199px){
+   
 .tab{
-width:48%;
-margin: 2px;
-border: 2px solid black;
+width:49.4%;
+margin:2px;border: 2px solid black;
 float: left;
-box-sizing:border-box;
-}
-}
+
+}}
