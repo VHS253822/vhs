@@ -8,6 +8,6 @@ for (i=0; i<names.length; i++)
   } 
   else
   {
-    hello.speak(names[i]);
+    hello.speak(names[i],"hi");
   }
 }
